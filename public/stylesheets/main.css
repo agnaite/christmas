@@ -3,18 +3,20 @@ body {
 	padding: 0;
 	text-align: center;
 	font-family: 'Lobster Two', cursive;
-	color: #FF4136;
-	background-color: #DDDDDD;
+	color: #212121;
+	background-color: #E6E6FA;
 }
 
 h1 {
-	padding-top: 200px;
+	padding-top: 240px;
 	font-size: 54px;
 	text-decoration: blink;
+
 }
 
 h2 {
-	font-size: 44px;
+	margin-top: -20px;
+	font-size: 84px;
 }
 
 .wrapper {
@@ -25,7 +27,7 @@ h2 {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index:1;
+	z-index:100;
 	-webkit-animation: snow 10s linear infinite;
 	-moz-animation: snow 10s linear infinite;
 	-ms-animation: snow 10s linear infinite;
