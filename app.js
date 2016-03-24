@@ -8,7 +8,7 @@ var daysTilXmas = function() {
   var timeLeft = xmas - today;
   timeLeft = (((timeLeft/1000)/60)/60)/24;
   
-  return timeLeft;
+  return Math.round(timeLeft);
 }
 
 var place = document.getElementById('days');
