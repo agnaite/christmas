@@ -1,0 +1,6 @@
+{
+  "name": "Days till Christmas",
+  "description": "A Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "keywords": ["node", "express", "static"],
+}
